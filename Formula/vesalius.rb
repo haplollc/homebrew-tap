@@ -4,6 +4,11 @@ class Vesalius < Formula
   url "https://github.com/haplollc/Vesalius/releases/download/v2.1.0/vesalius-2.1.0-macos-arm64.tar.gz"
   sha256 "337872c55c3ba2dcb2a10f1e06ade7abce1b32a98186e5953c2d9f8d654413a9"
 
+  bottle do
+    root_url "https://github.com/haplollc/Vesalius/releases/download/v2.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "e771cce13094574ef8107bb341a7fc3149f781a4d4cdc50ee0ade43ab58059d9"
+  end
+
   depends_on arch: :arm64
   depends_on macos: :sequoia
 
