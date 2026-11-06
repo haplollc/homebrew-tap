@@ -3,6 +3,7 @@ class Vesalius < Formula
   homepage "https://github.com/haplollc/Vesalius"
   url "https://github.com/haplollc/Vesalius/releases/download/v2.1.0/vesalius-2.1.0-macos-arm64.tar.gz"
   sha256 "337872c55c3ba2dcb2a10f1e06ade7abce1b32a98186e5953c2d9f8d654413a9"
+  license "MIT"
 
   bottle do
     root_url "https://github.com/haplollc/Vesalius/releases/download/v2.1.0"
